@@ -1,7 +1,7 @@
 { self, lib, ... }:
 {
   config = {
-    perSystem = { config, self', pkgs, ... }: {
+    perSystem = { config, system, pkgs, ... }: {
       packages.check =
         pkgs.runCommand "checks-combined"
           {
