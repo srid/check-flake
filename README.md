@@ -11,3 +11,6 @@ To work around this, this flake module will add package that wraps all the check
 nix build .#check --no-link  -L
 ```
 
+## See also
+
+- `systems` as an (overridable) flake input: https://github.com/numtide/treefmt/pull/228
