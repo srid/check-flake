@@ -13,4 +13,4 @@ nix build .#check --no-link  -L
 
 ## See also
 
-- `systems` as an (overridable) flake input: https://github.com/numtide/treefmt/pull/228
+- `systems` as an (overridable) flake input: https://github.com/nix-systems/nix-systems
