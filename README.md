@@ -1,4 +1,5 @@
 # check-flake
+
 Add a `.#check` package for building all checks for the current system
 
 ## Why?
@@ -11,6 +12,9 @@ To work around this, this flake module will add package that wraps all the check
 nix build .#check --no-link  -L
 ```
 
-## See also
+## Alternative approaches
+
+You should probably use one of the following instead of `check-flake`.
 
 - `systems` as an (overridable) flake input: https://github.com/nix-systems/nix-systems
+- https://github.com/srid/devour-flake
